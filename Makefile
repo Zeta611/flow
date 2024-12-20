@@ -13,7 +13,7 @@ else
   EXE=
 endif
 
-SWITCH=ocaml-variants.5.2.0+options
+SWITCH=5.3.0~rc1
 JS_OF_OCAML_VERSION=5.7.2
 OUNIT_VERSION=2.2.2.6
 

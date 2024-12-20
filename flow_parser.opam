@@ -8,6 +8,9 @@ bug-reports: "https://github.com/facebook/flow/issues"
 license: "MIT"
 
 build: ["dune" "build" "-p" name "-j" jobs]
+pin-depends: [
+  [ "ppxlib.0.33.1~5.3preview" "git+https://github.com/ocaml-ppx/ppxlib#218347c59cb93e463f33f06801bd61cf47f46265" ]
+]
 depends: [
   "ocaml" {>= "5.2.0"}
   "dune" {>= "3.2"}

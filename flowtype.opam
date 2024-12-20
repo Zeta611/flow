@@ -7,6 +7,9 @@ license: "MIT"
 homepage: "https://flow.org"
 doc: "https://flow.org/en/docs/getting-started/"
 bug-reports: "https://github.com/facebook/flow/issues"
+pin-depends: [
+  [ "ppxlib.0.33.1~5.3preview" "git+https://github.com/ocaml-ppx/ppxlib#eed75ddbb3b57b86d1f37774c258fbeb4467f6c6" ]
+]
 depends: [
   "ocaml" {>= "5.2.0"}
   "base" {>= "v0.16.3"}
